@@ -79,13 +79,12 @@ input[type="date"]::-webkit-inner-spin-button {
 /* common css */
 
 /* preloader */
-#main {
+/* #main {
   overflow: hidden;
-}
-
+} */
 /* Code for preloader */
 
-.cssload-preloader {
+/* .cssload-preloader {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -95,8 +94,18 @@ input[type="date"]::-webkit-inner-spin-button {
   background: #fff;
   width: 100%;
   height: 100%;
+} */
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
 }
-
 .cssload-preloader > .cssload-preloader-box {
   position: absolute;
   height: 29px;

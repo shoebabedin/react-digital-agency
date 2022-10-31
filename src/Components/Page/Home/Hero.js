@@ -9,7 +9,7 @@ const Hero = () => {
             <div className="title basis-full md:basis-1/2 pr-0 md:pr-[5%]">
               <h2 className="font-bold text-2xl md:text-[30px] lg:text-[43px] xl:text-[64px] lg:leading-[96px] text-[#393E50] text-center md:text-left mb-2 md:mb-10">
                 Digital Solutions for
-                <span className="text-[#30A7D7]">Growing Busniess</span>
+                <span className="text-[#30A7D7] ml-2">Growing Busniess</span>
               </h2>
               <p className="font-normal text-base leading-[24px] text-[rgba(57,62,80,0.4)] text-center md:text-left">
                 “We have a chance, if we stay focused and choose wisely, to
