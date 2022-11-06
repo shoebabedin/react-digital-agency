@@ -136,35 +136,35 @@ const NavBar = () => {
                 {/* <!-- Submenu starts --> */}
                 <ul className="border-l border-[#393E50] ml-4 px-4 items-start justify-start flex-col gap-4">
                   <li className="text-[#393e50] hover:text-[#30A7D7] font-normal text-sm leading-5">
-                    <NavLink className="" to="./pages/web-development.html">
+                    <NavLink className="" to="/web-development">
                       Web Development
                     </NavLink>
                   </li>
                   <li className="text-[#393e50] hover:text-[#30A7D7] font-normal text-sm leading-5">
-                    <NavLink className="" to="./pages/email-marketing.html">
+                    <NavLink className="" to="/email-marketing">
                       Email Marketing
                     </NavLink>
                   </li>
                   <li className="text-[#393e50] hover:text-[#30A7D7] font-normal text-sm leading-5">
-                    <NavLink className="" to="./pages/video-marketing.html">
+                    <NavLink className="" to="/video-marketing">
                       Video Marketing
                     </NavLink>
                   </li>
                   <li className="text-[#393e50] hover:text-[#30A7D7] font-normal text-sm leading-5">
-                    <NavLink className="" to="./pages/seo.html">
+                    <NavLink className="" to="/seo">
                       SEO
                     </NavLink>
                   </li>
                   <li className="text-[#393e50] hover:text-[#30A7D7] font-normal text-sm leading-5">
                     <NavLink
                       className=""
-                      to="./pages/social-media-marketing.html"
+                      to="/social-marketing"
                     >
                       Social Marketing
                     </NavLink>
                   </li>
                   <li className="text-[#393e50] hover:text-[#30A7D7] font-normal text-sm leading-5">
-                    <NavLink className="" to="./pages/sms-marketing.html">
+                    <NavLink className="" to="/sms-marketing">
                       SMS Marketing
                     </NavLink>
                   </li>
@@ -172,12 +172,12 @@ const NavBar = () => {
                 {/* <!-- Submenu ends --> */}
               </li>
               <li className="border-b-2 border-white text-[#393e50] hover:text-[#30A7D7] font-normal text-sm leading-5">
-                <NavLink to="./pages/case-studies.html" className="">
+                <NavLink to="/case-studies" className="">
                   CASE STUDIES
                 </NavLink>
               </li>
               <li className="border-b-2 border-white text-[#393e50] hover:text-[#30A7D7] font-normal text-sm leading-5">
-                <NavLink to="./pages/contact.html" className="">
+                <NavLink to="/contact" className="">
                   CONTACT
                 </NavLink>
               </li>
