@@ -16,7 +16,7 @@ const CaseStudies = () => {
               <div className="">
                 <img
                   className="rounded-[10px] max-w-[526px] w-full ml-auto"
-                  src={require("./../../../assets/images/case-studies-hero/hero-left.png")}
+                  src={require("./../../../assets/images/case-studies-hero/hero-left.webp")}
                   alt=""
                 />
                 <div className="bg-white rounded-[10px] shadow-[0px_4px_40px_rgba(48,167,215,0.1)] p-5 max-w-[450px] w-full inherit md:absolute top-1/2 left-[0%] mt-10 md:mt-0 md:-translate-y-1/2">
@@ -41,7 +41,7 @@ const CaseStudies = () => {
               <div>
                 <img
                   className="rounded-[10px] mb-2 w-full object-cover"
-                  src={require("./../../../assets/images/case-studies-hero/hero-right.png")}
+                  src={require("./../../../assets/images/case-studies-hero/hero-right.webp")}
                   alt=""
                 />
               </div>
@@ -71,7 +71,7 @@ const CaseStudies = () => {
                     <div className="mb-[15px]">
                       <img
                         className="rounded-[10px] w-full"
-                        src={require(`./../../../assets/images/futured/${item.img}.png`)}
+                        src={require(`./../../../assets/images/futured/${item.img}.webp`)}
                         alt=""
                       />
                     </div>
@@ -95,7 +95,7 @@ const CaseStudies = () => {
               <div className="">
                 <img
                   className="rounded-[20px] w-full"
-                  src={require("./../../../assets/images/recent-post/left-img.jpg")}
+                  src={require("./../../../assets/images/recent-post/left-img.webp")}
                   alt=""
                 />
                 <div className="max-w-[484px] mx-auto">
@@ -132,7 +132,7 @@ const CaseStudies = () => {
                     <div className="img max-w-[86px] max-h-[86px] rounded-[8px] overflow-hidden">
                       <img
                         className="w-full h-full"
-                        src={require(`./../../../assets/images/recent-post/${item.img}.png`)}
+                        src={require(`./../../../assets/images/recent-post/${item.img}.webp`)}
                         alt=""
                       />
                     </div>
@@ -162,7 +162,7 @@ const CaseStudies = () => {
                 <div className="img rounded-[10px] overflow-hidden mb-4">
                   <img
                     className="w-full"
-                    src={require(`./../../../assets/images/blog/${item.img}.png`)}
+                    src={require(`./../../../assets/images/blog/${item.img}.webp`)}
                     alt=""
                   />
                 </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import LogoSlider from "../../Common/LogoSlider/LogoSlider";
-import dotbg from "./../../../assets/images/our_client_say/dot_bg.png";
+import dotbg from "./../../../assets/images/our_client_say/dot-bg.webp";
 
 const OurClient = () => {
  

@@ -2,7 +2,6 @@ import React from "react";
 import data from "./../../../Data/caseimg.json";
 
 const CaseStudy = () => {
-
   return (
     <>
       <section className="case_studies py-16">
@@ -26,7 +25,7 @@ const CaseStudy = () => {
                     className="gellary_img relative rounded-[20px] overflow-hidden"
                   >
                     <img
-                      src={require(`./../../../assets/images/case_studies/${item.img}.png`)}
+                      src={require(`./../../../assets/images/case_studies/${item.img}.webp`)}
                       alt=""
                     />
                     <div className="absolute top-0 left-0 w-full h-full bg-black/30">
@@ -40,20 +39,23 @@ const CaseStudy = () => {
 
               {/* <!-- gellary slider --> */}
               <div className="gellary_slider md:hidden mt-10">
-              {data.map((item, index) => (
-                <div key={index} className="gellary_img relative rounded-[20px] overflow-hidden mb-2">
-                  <img
-                    className="h-full w-full object-cover"
-                    src={require(`./../../../assets/images/case_studies/${item.img}.png`)}
-                    alt=""
-                  />
-                  <div className="absolute top-0 left-0 w-full h-full bg-black/30">
-                    <p className="text-white font-normal text-sm leading-6 absolute bottom-11 left-11">
-                    {item.title}
-                    </p>
+                {data.map((item, index) => (
+                  <div
+                    key={index}
+                    className="gellary_img relative rounded-[20px] overflow-hidden mb-2"
+                  >
+                    <img
+                      className="h-full w-full object-cover"
+                      src={require(`./../../../assets/images/case_studies/${item.img}.webp`)}
+                      alt=""
+                    />
+                    <div className="absolute top-0 left-0 w-full h-full bg-black/30">
+                      <p className="text-white font-normal text-sm leading-6 absolute bottom-11 left-11">
+                        {item.title}
+                      </p>
+                    </div>
                   </div>
-                </div>
-                ))} 
+                ))}
               </div>
               {/* <!-- gellary slider --> */}
               <a

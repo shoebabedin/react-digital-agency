@@ -22,12 +22,12 @@ const NoMatch = () => {
               </div>
             </div>
             <div>
-              <img src={require('./../../../assets/images/notfound/404.png')} />
+              <img alt="" src={require('./../../../assets/images/notfound/404.webp')} />
             </div>
           </div>
         </div>
         <div>
-          <img src={require('./../../../assets/images/notfound/error.png')} />
+          <img alt="" src={require('./../../../assets/images/notfound/error.webp')} />
         </div>
       </div>
     </>

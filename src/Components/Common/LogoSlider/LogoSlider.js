@@ -20,7 +20,7 @@ const LogoSlider = () => {
                   <div key={index} className="logo_slider_item">
                     <img
                       className="mx-auto"
-                      src={require(`./../../../assets/images/logo_slider/${item.img}.png`)}
+                      src={require(`./../../../assets/images/logo_slider/${item.img}.webp`)}
                       alt=""
                     />
                   </div>

@@ -29,7 +29,7 @@ const EmailMarketing = () => {
             </div>
             <div className="img col-span-12 lg:col-span-6">
               <img
-                src={require("./../../../assets/images/email-marketing/hero.png")}
+                src={require("./../../../assets/images/email-marketing/hero.webp")}
                 alt=""
               />
 

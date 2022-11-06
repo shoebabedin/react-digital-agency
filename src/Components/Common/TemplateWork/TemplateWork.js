@@ -5,16 +5,7 @@ const TemplateWork = () => {
     var imgCount = gellary.length;
     const [oddData, setOddData] = useState('')
 
-    // useEffect(() => {
-    //     let data = 1 ;
-    //     while (data <= imgCount){
-    //         console.log(data) ;
-    //         setOddData(data)
-    //         data += 2 ;
-    //     }
-    // },[])
-
-    // console.log(oddData);
+    
     
     return (
         <>
@@ -41,7 +32,7 @@ const TemplateWork = () => {
                 {
                     gellary.map(item => 
                         <div key={item.id} className={`template_gal_item col-span-1`}>
-                            <img className='w-full h-full rounded-[10px]' src={require(`./../../../assets/images/template/${item.img}.png`)} alt={item.id} />
+                            <img className='w-full h-full rounded-[10px]' src={require(`./../../../assets/images/template/${item.img}.webp`)} alt={item.id} />
                         </div>
                         
                         )

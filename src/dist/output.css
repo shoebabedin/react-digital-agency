@@ -787,16 +787,16 @@ video {
   margin-bottom: 23px;
 }
 
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
 .mb-\[64px\] {
   margin-bottom: 64px;
 }
 
 .mb-3 {
   margin-bottom: 0.75rem;
-}
-
-.ml-2 {
-  margin-left: 0.5rem;
 }
 
 .block {
@@ -2070,8 +2070,8 @@ nav .service:hover .service_dropdown {
 /* custom plan */
 
 .custom_plan_bg {
-  background: url("./../assets/images/custom_plan/custom_plan_bg.png") no-repeat
-    center;
+  background: url("./../assets/images/custom_plan/custom-plan-bg.webp")
+    no-repeat center;
   background-size: cover;
 }
 
@@ -2186,7 +2186,7 @@ nav .service:hover .service_dropdown {
 /* contact_banner */
 
 .contact_banner {
-  background: url("./../assets/images/footer/footer-hero.png") no-repeat center;
+  background: url("./../assets/images/footer/footer-hero.webp") no-repeat center;
   background-size: cover;
 }
 

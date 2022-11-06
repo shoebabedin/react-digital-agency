@@ -23,7 +23,7 @@ const SocialMarketing = () => {
               </a>
               <img
                 className="mx-auto"
-                src={require('./../../../assets/images/social-media-marketing/hero.png')}
+                src={require('./../../../assets/images/social-media-marketing/hero.webp')}
                 alt=""
               />
 
@@ -263,7 +263,7 @@ const SocialMarketing = () => {
             <div className="col-span-12 md:col-span-6 order-2 md:order-1">
               <img
                 className="w-full"
-                src={require('./../../../assets/images/social-media-marketing/social_media.png')}
+                src={require('./../../../assets/images/social-media-marketing/social-media.webp')}
                 alt=""
               />
             </div>

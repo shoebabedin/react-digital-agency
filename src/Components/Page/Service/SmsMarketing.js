@@ -23,7 +23,7 @@ const SmsMarketing = () => {
             </div>
             <div className="img col-span-12 lg:col-span-6">
               <img
-                src={require('./../../../assets/images/sms-marketing/hero-section.png')}
+                src={require('./../../../assets/images/sms-marketing/hero-section.webp')}
                 alt=""
               />
 
@@ -148,7 +148,7 @@ const SmsMarketing = () => {
             </div>
             <div className="col-span-12 md:col-span-6">
               <img
-                src={require('./../../../assets/images/sms-marketing/easy_reach.png')}
+                src={require('./../../../assets/images/sms-marketing/easy-reach.webp')}
                 alt=""
               />
             </div>
@@ -163,7 +163,7 @@ const SmsMarketing = () => {
           <div className="grid grid-cols-12 gap-4">
             <div className="col-span-12 md:col-span-6 order-2 md:order-1">
               <img
-                src={require('./../../../assets/images/sms-marketing/sms_faster_email.png')}
+                src={require('./../../../assets/images/sms-marketing/sms-faster-email.webp')}
                 alt=""
               />
             </div>

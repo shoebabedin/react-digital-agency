@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import logo from "./../../../assets/images/footer/footer_logo.png";
+import logo from "./../../../assets/images/footer/footer-logo.webp";
 
 const Footer = () => {
   return (
@@ -9,23 +9,23 @@ const Footer = () => {
         <div className="container">
           <div className="grid grid-cols-12 gap-4 pb-10 border-b border-[#A8ADB9]">
             <div className="col-span-12 lg:col-span-5">
-              <a to="./index.html">
+              <Link to="./index.html">
                 <img
                   className="max-w-[160px] lg:max-w-[330px] mx-auto lg:mr-auto lg:ml-0"
                   src={logo}
                   alt=""
                 />
-              </a>
+              </Link>
               <p className="lg:max-w-[424px] py-10 font-normal text-base text-[#393e50]/[0.6] leading-6 text-center lg:text-left">
                 In publishing and graphic design, Lorem ipsum is a placeholder
                 text commonly used to demonstrate
               </p>
-              <a
+              <Link
                 className="font-normal text-base text-[#393e50]/[0.6] leading-6 text-center lg:text-left block"
                 to="mailto:info@neumohive.xyz"
               >
                 info@neumohive.xyz
-              </a>
+              </Link>
             </div>
             <div className="col-span-6 lg:col-span-2">
               <h4 className="font-semibold text-base leading-6 text-[#393e50] mb-10">

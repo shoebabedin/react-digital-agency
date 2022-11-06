@@ -21,7 +21,7 @@ const WebDevelopment = () => {
               </a>
               <img
                 className="mx-auto"
-                src={require('./../../../assets/images/web-development/hero.png')}
+                src={require('./../../../assets/images/web-development/hero.webp')}
                 alt=""
               />
 
@@ -283,7 +283,7 @@ const WebDevelopment = () => {
               >
                 <img
                   className="w-full h-full"
-                  src={require('./../../../assets/images/web-development/recent_item1.png')}
+                  src={require('./../../../assets/images/web-development/recent-item1.webp')}
                   alt=""
                 />
               </div>
@@ -305,7 +305,7 @@ const WebDevelopment = () => {
               >
                 <img
                   className="w-full h-full"
-                  src={require('./../../../assets/images/web-development/recent_item2.png')}
+                  src={require('./../../../assets/images/web-development/recent-item2.webp')}
                   alt=""
                 />
               </div>
@@ -327,7 +327,7 @@ const WebDevelopment = () => {
               >
                 <img
                   className="w-full h-full"
-                  src={require('./../../../assets/images/web-development/recent_item3.png')}
+                  src={require('./../../../assets/images/web-development/recent-item3.webp')}
                   alt=""
                 />
               </div>

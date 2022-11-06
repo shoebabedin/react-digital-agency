@@ -19,7 +19,7 @@ const Hero = () => {
             </div>
             <div className="img basis-full md:basis-1/2">
               <img
-                src={require("./../../../assets/images/hero/iMac.png")}
+                src={require("./../../../assets/images/hero/imac.webp")}
                 alt=""
               />
             </div>

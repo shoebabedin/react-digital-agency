@@ -26,7 +26,7 @@ const About = () => {
             <div className="img col-span-12 lg:col-span-8 order-1 lg:order-2">
               <img
                 className="w-full"
-                src={require("./../../../assets/images/about-hero/hero.png")}
+                src={require("./../../../assets/images/about-hero/hero.webp")}
                 alt=""
               />
             </div>
@@ -41,7 +41,7 @@ const About = () => {
           <div className="grid grid-cols-12 gap-4">
             <div className="col-span-12 lg:col-span-6 order-2 lg:order-1">
               <img
-                src={require("./../../../assets/images/what-we-do/img.png")}
+                src={require("./../../../assets/images/what-we-do/img.webp")}
                 className="w-full h-full rounded-2xl"
                 alt=""
               />
@@ -160,7 +160,7 @@ const About = () => {
             <div className="col-span-12 lg:col-span-6">
               <img
                 className="py-[17px] md:px-[28px]"
-                src={require("./../../../assets/images/our_client_say/right_experience.jpg")}
+                src={require("./../../../assets/images/our_client_say/right-experience.webp")}
                 alt=""
               />
             </div>

@@ -33,7 +33,7 @@ const VideoMarketing = () => {
             </div>
             <div className="img col-span-12 lg:col-span-6">
               <img
-                src={require('./../../../assets/images/sms-marketing/hero-section.png')}
+                src={require('./../../../assets/images/sms-marketing/hero-section.webp')}
                 alt=""
               />
 
@@ -190,7 +190,7 @@ const VideoMarketing = () => {
                     type="video/mp4"
                   />
                   <source
-                    src={require('./../../../assets/images/video-development/video.png')}
+                    src={require('./../../../assets/images/video-development/video.webp')}
                     type="video/png"
                   />
                 </video>
@@ -227,42 +227,42 @@ const VideoMarketing = () => {
                 <div className="recent_work_slider_item">
                   <img
                     className="w-full h-full rounded-[10px] px-2"
-                    src={require('./../../../assets/images/video-development/item1.png')}
+                    src={require('./../../../assets/images/video-development/item1.webp')}
                     alt=""
                   />
                 </div>
                 <div className="recent_work_slider_item">
                   <img
                     className="w-full h-full rounded-[10px] px-2"
-                    src={require('./../../../assets/images/video-development/item2.png')}
+                    src={require('./../../../assets/images/video-development/item2.webp')}
                     alt=""
                   />
                 </div>
                 <div className="recent_work_slider_item">
                   <img
                     className="w-full h-full rounded-[10px] px-2"
-                    src={require('./../../../assets/images/video-development/item3.png')}
+                    src={require('./../../../assets/images/video-development/item3.webp')}
                     alt=""
                   />
                 </div>
                 <div className="recent_work_slider_item">
                   <img
                     className="w-full h-full rounded-[10px] px-2"
-                    src={require('./../../../assets/images/video-development/item4.png')}
+                    src={require('./../../../assets/images/video-development/item4.webp')}
                     alt=""
                   />
                 </div>
                 <div className="recent_work_slider_item">
                   <img
                     className="w-full h-full rounded-[10px] px-2"
-                    src={require('./../../../assets/images/video-development/item1.png')}
+                    src={require('./../../../assets/images/video-development/item1.webp')}
                     alt=""
                   />
                 </div>
                 <div className="recent_work_slider_item">
                   <img
                     className="w-full h-full rounded-[10px] px-2"
-                    src={require('./../../../assets/images/video-development/item2.png')}
+                    src={require('./../../../assets/images/video-development/item2.webp')}
                     alt=""
                   />
                 </div>
