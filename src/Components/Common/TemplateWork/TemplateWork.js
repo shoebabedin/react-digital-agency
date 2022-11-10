@@ -26,9 +26,9 @@ const TemplateWork = () => {
               {/* grid gellary */}
               <div className="custom_template_gal grid grid-col-1 md:grid-cols-4 grid-rows-3 gap-3 mt-10">
                 {gellary.map((item) => (
-                  <div key={item.id} className={`template_gal_item col-span-1`}>
+                  <div key={item.id} className={`template_gal_item col-span-1 overflow-hidden rounded-[10px]`}>
                     <img
-                      className="w-full h-full rounded-[10px]"
+                      className="w-full h-full transition-all duration-1000 hover:scale-125"
                       src={require(`./../../../assets/images/template/${item.img}.webp`)}
                       alt={item.id}
                     />

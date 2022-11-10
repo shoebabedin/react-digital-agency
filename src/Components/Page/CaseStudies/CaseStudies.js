@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import blog from "./../../../Data/blog.json";
 import futuredPost from "./../../../Data/futuredPost.json";
 import recentPost from "./../../../Data/recentPost.json";
@@ -38,12 +39,14 @@ const CaseStudies = () => {
               <h4 className="font-bold text-lg md:text-2xl leading-9 text-[#30A7D7] mb-6 text-center">
                 Trending Post
               </h4>
-              <div>
-                <img
-                  className="rounded-[10px] mb-2 w-full object-cover"
-                  src={require("./../../../assets/images/case-studies-hero/hero-right.webp")}
-                  alt=""
-                />
+              <div className="">
+                <div className="overflow-hidden rounded-[10px]  mb-2">
+                  <img
+                    className="w-full object-cover transition-all duration-1000 hover:scale-125"
+                    src={require("./../../../assets/images/case-studies-hero/hero-right.webp")}
+                    alt=""
+                  />
+                </div>
               </div>
               <p className="font-medium text-base leading-6 text-[#393e50] text-center lg:text-left">
                 Increase your monthly traffic and sales
@@ -66,18 +69,18 @@ const CaseStudies = () => {
                 {futuredPost.map((item) => (
                   <div
                     key={item.id}
-                    className="futured-slider-item col-span-12 md:col-span-6 lg:col-span-3"
+                    className="futured-slider-item col-span-12 md:col-span-6 lg:col-span-3 group"
                   >
-                    <div className="mb-[15px]">
+                    <div className="mb-[15px] overflow-hidden rounded-[10px]">
                       <img
-                        className="rounded-[10px] w-full"
+                        className="w-full transition-all duration-1000 group-hover:scale-125"
                         src={require(`./../../../assets/images/futured/${item.img}.webp`)}
                         alt=""
                       />
                     </div>
-                    <p className="font-normal text-sm leading-6 text-[#393e50]">
+                    <Link to="#" className="font-medium text-sm leading-6 text-[#393e50] group-hover:text-[#30A7D7]">
                       {item.desc}
-                    </p>
+                    </Link>
                   </div>
                 ))}
               </div>
@@ -92,19 +95,21 @@ const CaseStudies = () => {
         <div className="container">
           <div className="grid grid-cols-12 gap-4">
             <div className="title col-span-12 lg:col-span-8">
-              <div className="">
-                <img
-                  className="rounded-[20px] w-full"
-                  src={require("./../../../assets/images/recent-post/left-img.webp")}
-                  alt=""
-                />
+              <div className="group">
+                <div className="overflow-hidden rounded-[20px]">
+                  <img
+                    className="w-full transition-all duration-1000 group-hover:scale-125"
+                    src={require("./../../../assets/images/recent-post/left-img.webp")}
+                    alt=""
+                  />
+                </div>
                 <div className="max-w-[484px] mx-auto">
                   <p className="min font-normal text-sm leading-[21px] text-[rgba(57,62,80,0.4)] block md:hidden mt-10 text-center">
                     Posted 04.25.2019
                   </p>
-                  <h2 className="font-bold text-2xl leading-[36px] text-[#393E50] text-left md:text-center my-6">
+                  <Link to="#" className="font-bold text-2xl leading-[36px] text-[#393E50] text-left md:text-center my-6 hover:text-[#30A7D7] transition-all duration-1000 inline-block">
                     Increase your monthly traffic and sales
-                  </h2>
+                  </Link>
                   <div className="flex items-center justify-between md:justify-around">
                     <p className="date font-normal text-sm leading-[21px] text-[rgba(57,62,80,0.4)]">
                       500 views
@@ -127,19 +132,19 @@ const CaseStudies = () => {
                 {recentPost.map((item) => (
                   <div
                     key={item.id}
-                    className="flex items-center justify-start gap-6"
+                    className="flex items-center justify-start gap-6 group"
                   >
                     <div className="img max-w-[86px] max-h-[86px] rounded-[8px] overflow-hidden">
                       <img
-                        className="w-full h-full"
+                        className="w-full h-full transition-all duration-1000 group-hover:scale-125"
                         src={require(`./../../../assets/images/recent-post/${item.img}.webp`)}
                         alt=""
                       />
                     </div>
                     <div className="content">
-                      <h4 className="font-medium text-base leading-6 text-[#393e50] mb-2">
+                      <Link to="#" className="font-medium text-base leading-6 text-[#393e50] mb-2 hover:text-[#30A7D7] transition-all duration-1000 inline-block">
                         {item.desc}
-                      </h4>
+                      </Link>
                       <p className="font-normal text-sm leading-5 text-[rgba(57,62,80,0.4)]">
                         <span>Posted</span> {item.date}
                       </p>
@@ -158,18 +163,18 @@ const CaseStudies = () => {
         <div className="container">
           <div className="blog_item grid grid-cols-12 gap-4">
             {dataForDisplay.map((item) => (
-              <div className="col-span-12 md:col-span-4">
+              <div className="col-span-12 md:col-span-4 group">
                 <div className="img rounded-[10px] overflow-hidden mb-4">
                   <img
-                    className="w-full"
+                    className="w-full transition-all duration-1000 group-hover:scale-125"
                     src={require(`./../../../assets/images/blog/${item.img}.webp`)}
                     alt=""
                   />
                 </div>
                 <div className="content">
-                  <h4 className="font-medium text-base leading-6 text-[#393e50] mb-5">
+                  <Link to="#" className="font-medium text-base leading-6 text-[#393e50] mb-5 hover:text-[#30A7D7] transition-all duration-1000 inline-block">
                     {item.title}
-                  </h4>
+                  </Link>
                   <p className="font-normal text-sm leading-[21px] text-[rgba(57,62,80,0.8)] mb-[10px]">
                     {item.desc}
                   </p>

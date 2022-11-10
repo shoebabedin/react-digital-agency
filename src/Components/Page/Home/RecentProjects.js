@@ -44,7 +44,7 @@ const RecentProjects = () => {
         <div className="heading max-w-[635px] mx-auto text-center mb-16 overflow-x-hidden">
           <h2 className="font-bold text-xl md:text-[40px] leading-[60px] text-[#393E50]">
             Recent
-            <span className="text-[#30A7D7] ml-1">Projects</span>
+            <span className="text-[#30A7D7] ml-2">Projects</span>
           </h2>
           <p className="font-normal text-base leading-[24px] text-[rgba(57,62,80,0.4)]">
             In publishing and graphic design, Lorem ipsum is a placeholder text
@@ -54,9 +54,9 @@ const RecentProjects = () => {
 
         <Slider {...settings} className="project_slider overflow-hidden max-h-[400px]">
           {data.map((item, index) => (
-            <div key={index} className="project_slider_item relative">
+            <div key={index} className="project_slider_item relative group overflow-hidden">
               <img
-                className="w-full focus-visible:outline-[0px] focus-visible:border-[0px]"
+                className="w-full focus-visible:outline-[0px] focus-visible:border-[0px] transition-all duration-1000 group-hover:scale-125"
                 src={require(`./../../../assets/images/recent_project/${item.img}.webp`)}
                 alt=""
               />

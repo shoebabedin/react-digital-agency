@@ -39,10 +39,10 @@ const About = () => {
       <section className="what_we_do py-16">
         <div className="container">
           <div className="grid grid-cols-12 gap-4">
-            <div className="col-span-12 lg:col-span-6 order-2 lg:order-1">
+            <div className="col-span-12 lg:col-span-6 order-2 lg:order-1 overflow-hidden rounded-2xl">
               <img
                 src={require("./../../../assets/images/what-we-do/img.webp")}
-                className="w-full h-full rounded-2xl"
+                className="w-full h-full rounded-2xl transition-all duration-1000 hover:scale-125"
                 alt=""
               />
             </div>
@@ -102,7 +102,7 @@ const About = () => {
             <div className="col-span-12 lg:col-span-6">
               <h2 className="font-bold text-xl md:text-[40px] leading-[30px] md:leading-[60px] text-[#393E50] mb-10">
                 We Provide you the best
-                <span className="text-[#30A7D7] ml-1">Experience</span>
+                <span className="text-[#30A7D7] ml-2">Experience</span>
               </h2>
               <p className="font-medium text-sm md:text-base leading-[24px] text-[#393E50] mb-10">
                 Based in Paris, we work closely with clients from around the
@@ -158,11 +158,13 @@ const About = () => {
               </ul>
             </div>
             <div className="col-span-12 lg:col-span-6">
-              <img
-                className="py-[17px] md:px-[28px]"
-                src={require("./../../../assets/images/our_client_say/right-experience.webp")}
-                alt=""
-              />
+              <div className="overflow-hidden rounded-2xl my-[17px] md:mx-[28px]">
+                <img
+                  className="w-full transition-all duration-1000 hover:scale-125"
+                  src={require("./../../../assets/images/our_client_say/right-experience.webp")}
+                  alt=""
+                />
+              </div>
             </div>
             <div className="col-span-12 mt-16">
               <LogoSlider/>

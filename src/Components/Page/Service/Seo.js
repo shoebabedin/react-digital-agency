@@ -27,7 +27,7 @@ const Seo = () => {
                 alt=""
               />
 
-              <a href="#subscription" role="button" className="max-w-[305px] w-full mx-auto max-h-[44px] h-full bg-[#30A7D7] rounded-lg text-white block lg:hidden">
+              <a href="#subscription" role="button" className="max-w-[305px] w-full mx-auto max-h-[44px] h-full bg-[#30A7D7] rounded-lg text-white mt-10 flex items-center justify-center lg:hidden">
                 Get a Quote
               </a>
             </div>
@@ -169,7 +169,7 @@ const Seo = () => {
             </div>
             <div className="col-span-12 md:col-span-6 order-1 md:order-2">
               <h2 className="font-bold text-xl md:text-2xl lg:text-[40px] leading-8 md:leading-[40px] lg:leading-[60px] text-[#393e50] mt-10 mb-3 md:mb-6 text-center md:text-left">
-                You Need ROI Driven Search Engine Optimization
+              You Need ROI Driven Search Engine Optimization
               </h2>
               <p className="font-normal text-sm md:text-base leading-6 text-[#393e50]/40">
                 Find out about the client's business, site, and rivals to give

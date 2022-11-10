@@ -1,7 +1,19 @@
 import React from "react";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import Accordion from "../../Common/Accordion/Accordion";
 
 const Contact = () => {
+  const notify = () => toast.success('Thanks for your message', {
+    position: "top-right",
+    autoClose: 5000,
+    hideProgressBar: false,
+    closeOnClick: true,
+    pauseOnHover: true,
+    draggable: true,
+    progress: undefined,
+    theme: "light",
+    });
   return (
     <>
       {/* <!-- contact banner --> */}
@@ -131,59 +143,72 @@ const Contact = () => {
               <div className="flex items-center justify-center md:p-12">
                 {/* <!-- Author: FormBold Team -->
                 <!-- Learn More: https://formbold.com --> */}
-                <div className="mx-auto w-full max-w-[550px]">
-                  <form action="" method="" className="grid grid-cols-12 gap-4">
-                    <div className="col-span-12 md:col-span-6">
-                      <label
-                        for="name"
-                        className="mb-2 block text-base font-normal leading-[22px] text-[#393E50]"
-                      >
-                        Full Name
-                      </label>
-                      <input
-                        type="text"
-                        name="name"
-                        id="name"
-                        placeholder="Your Name"
-                        className="w-full rounded-md border border-[rgba(57,62,80,0.4)] bg-white py-3 px-6 text-sm font-normal text-[rgba(57,62,80,0.4)] outline-none focus:border-[rgba(57,62,80,0.4)]"
-                      />
-                    </div>
-                    <div className="col-span-12 md:col-span-6">
-                      <label
-                        for="email"
-                        className="mb-2 block text-base font-normal leading-[22px] text-[#393E50]"
-                      >
-                        Email Address
-                      </label>
-                      <input
-                        type="email"
-                        name="email"
-                        id="email"
-                        placeholder="Your Email"
-                        className="w-full rounded-md border border-[rgba(57,62,80,0.4)] bg-white py-3 px-6 text-sm font-normal text-[rgba(57,62,80,0.4)] outline-none focus:border-[rgba(57,62,80,0.4)]"
-                      />
-                    </div>
-                    <div className="col-span-12">
-                      <label
-                        for="message"
-                        className="mb-2 block text-base font-normal leading-[22px] text-[#393E50]"
-                      >
-                        Message
-                      </label>
-                      <textarea
-                        rows="4"
-                        name="message"
-                        id="message"
-                        placeholder="Your Message"
-                        className="w-full rounded-md border border-[rgba(57,62,80,0.4)] bg-white py-3 px-6 text-sm font-normal text-[rgba(57,62,80,0.4)] outline-none focus:border-[rgba(57,62,80,0.4)]"
-                      ></textarea>
-                    </div>
-                    <div className="col-span-12">
-                      <button className="bg-[#30A7D7] text-sm font-semibold text-white leading-5 outline-none rounded-lg py-4 px-28 mx-auto flex items-center justify-center">
-                        Submit
-                      </button>
-                    </div>
-                  </form>
+                <div className="mx-auto w-full max-w-[550px] grid grid-cols-12 gap-4">
+                  <div className="col-span-12 md:col-span-6">
+                    <label
+                      for="name"
+                      className="mb-2 block text-base font-normal leading-[22px] text-[#393E50]"
+                    >
+                      Full Name
+                    </label>
+                    <input
+                      type="text"
+                      name="name"
+                      id="name"
+                      placeholder="Your Name"
+                      className="w-full rounded-md border border-[rgba(57,62,80,0.4)] bg-white py-3 px-6 text-sm font-normal text-[rgba(57,62,80,0.4)] outline-none focus:border-[rgba(57,62,80,0.4)]"
+                    />
+                  </div>
+                  <div className="col-span-12 md:col-span-6">
+                    <label
+                      for="email"
+                      className="mb-2 block text-base font-normal leading-[22px] text-[#393E50]"
+                    >
+                      Email Address
+                    </label>
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      placeholder="Your Email"
+                      className="w-full rounded-md border border-[rgba(57,62,80,0.4)] bg-white py-3 px-6 text-sm font-normal text-[rgba(57,62,80,0.4)] outline-none focus:border-[rgba(57,62,80,0.4)]"
+                    />
+                  </div>
+                  <div className="col-span-12">
+                    <label
+                      for="message"
+                      className="mb-2 block text-base font-normal leading-[22px] text-[#393E50]"
+                    >
+                      Message
+                    </label>
+                    <textarea
+                      rows="4"
+                      name="message"
+                      id="message"
+                      placeholder="Your Message"
+                      className="w-full rounded-md border border-[rgba(57,62,80,0.4)] bg-white py-3 px-6 text-sm font-normal text-[rgba(57,62,80,0.4)] outline-none focus:border-[rgba(57,62,80,0.4)]"
+                    ></textarea>
+                  </div>
+                  <div className="col-span-12">
+                    <button
+                      onClick={notify}
+                      className="bg-[#30A7D7] text-sm font-semibold text-white leading-5 outline-none rounded-lg py-4 px-28 mx-auto flex items-center justify-center"
+                    >
+                      Submit
+                    </button>
+                    <ToastContainer
+                      position="top-right"
+                      autoClose={5000}
+                      hideProgressBar={false}
+                      newestOnTop={false}
+                      closeOnClick
+                      rtl={false}
+                      pauseOnFocusLoss
+                      draggable
+                      pauseOnHover
+                      theme="dark"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -193,7 +218,7 @@ const Contact = () => {
       {/* <!-- get in touch --> */}
 
       {/* <!-- frequently asked question --> */}
-      <Accordion/>
+      <Accordion />
       {/* <!-- frequently asked question --> */}
 
       {/* <!-- need to know more  --> */}
@@ -230,7 +255,10 @@ const Contact = () => {
                   />
                 </svg>
               </span>
-              <a href="mailto:help@numohive.com" className="font-medium text-base leading-6 text-[#393E50] mb-4 inline-block">
+              <a
+                href="mailto:help@numohive.com"
+                className="font-medium text-base leading-6 text-[#393E50] mb-4 inline-block"
+              >
                 help@numohive.com
               </a>
               <p className="font-normal text-base leading-6 text-[rgba(57,62,80,0.4)]">

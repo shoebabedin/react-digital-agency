@@ -27,7 +27,7 @@ const SocialMarketing = () => {
                 alt=""
               />
 
-              <a href="#subscription" role="button" className="max-w-[305px] w-full mx-auto max-h-[44px] h-full bg-[#30A7D7] rounded-lg text-white block lg:hidden">
+              <a href="#subscription" role="button" className="max-w-[305px] w-full mx-auto max-h-[44px] h-full bg-[#30A7D7] rounded-lg text-white mt-10 flex items-center justify-center lg:hidden">
                 Get a Quote
               </a>
             </div>

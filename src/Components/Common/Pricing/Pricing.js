@@ -10,7 +10,7 @@ const Pricing = () => {
           </h2>
           <div className="grid grid-cols-12 gap-4">
             <div className="col-span-12 lg:col-span-4">
-              <div className="bg-white rounded-[20px] p-9 md:p-10 hover:shadow-[0px_25px_32px_rgba(48,167,215,0.08)] transition ease-in-out delay-500">
+              <div className="bg-white rounded-[20px] p-9 md:p-10 hover:shadow-[0px_25px_32px_rgba(48,167,215,0.08)] transition-all duration-1000">
                   <h4 className="font-medium text-xl md:text-2xl leading-9 text-[#393e50] mb-5">
                     Free
                   </h4>
@@ -54,7 +54,7 @@ const Pricing = () => {
               </div>
             </div>
             <div className="col-span-12 lg:col-span-4">
-              <div className="bg-white rounded-[20px] p-9 md:p-10 hover:shadow-[0px_25px_32px_rgba(48,167,215,0.08)] transition ease-in-out delay-500">
+              <div className="bg-white rounded-[20px] p-9 md:p-10 hover:shadow-[0px_25px_32px_rgba(48,167,215,0.08)] transition-all duration-1000">
                   <h4 className="font-medium text-xl md:text-2xl leading-9 text-[#393e50] mb-5">
                     Standard
                   </h4>
@@ -95,7 +95,7 @@ const Pricing = () => {
               </div>
             </div>
             <div className="col-span-12 lg:col-span-4">
-              <div className="bg-white rounded-[20px] p-9 md:p-10 hover:shadow-[0px_25px_32px_rgba(48,167,215,0.08)] transition ease-in-out delay-500">
+              <div className="bg-white rounded-[20px] p-9 md:p-10 hover:shadow-[0px_25px_32px_rgba(48,167,215,0.08)] transition-all duration-1000">
                   <h4 className="font-medium text-xl md:text-2xl leading-9 text-[#393e50] mb-5">
                     Premium
                   </h4>

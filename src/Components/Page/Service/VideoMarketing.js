@@ -45,7 +45,7 @@ const VideoMarketing = () => {
               <a
                 href="#subscription"
                 role="button"
-                className="max-w-[305px] w-full mx-auto max-h-[44px] h-full bg-[#30A7D7] rounded-lg text-white block lg:hidden mt-10"
+                className="max-w-[305px] w-full mx-auto max-h-[44px] h-full bg-[#30A7D7] rounded-lg text-white mt-10 flex items-center justify-center lg:hidden"
               >
                 Get a Quote
               </a>
@@ -202,9 +202,9 @@ const VideoMarketing = () => {
             <div className="col-span-12">
               <Slider {...settings} className="recent_work_slider">
                 {recentwork.map((item) => (
-                  <div className="recent_work_slider_item px-2 focus-within:outline-0">
+                  <div className="recent_work_slider_item focus-within:outline-0 rounded-[10px] overflow-hidden">
                     <img
-                      className="w-full h-full rounded-[10px] "
+                      className="w-full h-full transition-all duration-1000 hover:scale-125"
                       src={require(`./../../../assets/images/video-development/${item.img}.webp`)}
                       alt=""
                     />
