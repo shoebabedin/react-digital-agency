@@ -1,20 +1,18 @@
-import React, { useState } from 'react';
+import React from "react";
 import gellary from "./../../../Data/templateimage.json";
 
 const TemplateWork = () => {
-    var imgCount = gellary.length;
-    const [oddData, setOddData] = useState('')
+  // var imgCount = gellary.length;
+  // const [oddData, setOddData] = useState("");
 
-    
-    
-    return (
-        <>
-            <section className="template_work py-4 md:py-16">
+  return (
+    <>
+      <section className="template_work py-4 md:py-16">
         <div className="container">
           <div className="grid grid-cols-12 gap-4">
             <div className="col-span-12">
               <div className="text-center max-w-[884px] mx-auto mb-4 md:mb-16">
-                <h2 className="font-bold text-xl md:text-[40px] leading-[60px] text-[#393e50] md:mb-6">
+                <h2 className="font-bold text-xl md:text-[40px] leading-[60px] text-[#393e50] md:mb-6 capitalize">
                   Templates that work
                 </h2>
                 <p className="font-medium text-sm md:text-base leading-6 text-[rgba(57,62,80,0.4)]">
@@ -25,25 +23,24 @@ const TemplateWork = () => {
                 </p>
               </div>
 
-         
-
               {/* grid gellary */}
               <div className="custom_template_gal grid grid-col-1 md:grid-cols-4 grid-rows-3 gap-3 mt-10">
-                {
-                    gellary.map(item => 
-                        <div key={item.id} className={`template_gal_item col-span-1`}>
-                            <img className='w-full h-full rounded-[10px]' src={require(`./../../../assets/images/template/${item.img}.webp`)} alt={item.id} />
-                        </div>
-                        
-                        )
-                }
+                {gellary.map((item) => (
+                  <div key={item.id} className={`template_gal_item col-span-1`}>
+                    <img
+                      className="w-full h-full rounded-[10px]"
+                      src={require(`./../../../assets/images/template/${item.img}.webp`)}
+                      alt={item.id}
+                    />
+                  </div>
+                ))}
               </div>
             </div>
           </div>
         </div>
       </section>
-        </>
-    );
+    </>
+  );
 };
 
 export default TemplateWork;

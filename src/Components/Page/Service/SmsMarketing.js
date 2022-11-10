@@ -13,9 +13,9 @@ const SmsMarketing = () => {
               <p className="font-medium text-base lg:text-2xl leading-[24px] text-[rgba(57,62,80,0.4)] text-center lg:text-left">
                 SMS Marketing
               </p>
-              <h2 className="font-bold text-2xl md:text-[28px] lg:text-[64px] lg:leading-[96px] text-[#393E50] text-center lg:text-left mb-2 md:mb-10">
+              <h2 className="font-bold text-2xl md:text-[28px] lg:text-[64px] lg:leading-[96px] text-[#393E50] text-center lg:text-left mb-2 md:mb-10 capitalize">
                 Connect directly with targeted
-                <span className="text-[#30A7D7]">SMS</span>
+                <span className="text-[#30A7D7] ml-2">SMS</span>
               </h2>
               <a href="#subscription" role="button" className="max-w-[305px] w-full mx-auto lg:mr-auto lg:ml-0 max-h-[44px] h-full bg-[#30A7D7] rounded-lg text-white hidden lg:flex items-center justify-center">
                 Get a Quote

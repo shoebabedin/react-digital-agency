@@ -102,7 +102,7 @@ const About = () => {
             <div className="col-span-12 lg:col-span-6">
               <h2 className="font-bold text-xl md:text-[40px] leading-[30px] md:leading-[60px] text-[#393E50] mb-10">
                 We Provide you the best
-                <span className="text-[#30A7D7]">Experience</span>
+                <span className="text-[#30A7D7] ml-1">Experience</span>
               </h2>
               <p className="font-medium text-sm md:text-base leading-[24px] text-[#393E50] mb-10">
                 Based in Paris, we work closely with clients from around the

@@ -13,7 +13,7 @@ const WebDevelopment = () => {
               <p className="font-medium text-base lg:text-2xl leading-[24px] text-[rgba(57,62,80,0.4)] text-center">
                 Web Development
               </p>
-              <h2 className="font-bold text-2xl md:text-[28px] lg:text-[64px] lg:leading-[96px] text-[#393E50] text-center mb-2 md:mb-10">
+              <h2 className="font-bold text-2xl md:text-[28px] lg:text-[64px] lg:leading-[96px] text-[#393E50] text-center mb-2 md:mb-10 capitalize">
                 Optimize your business With our Ecommerce Theme
               </h2>
               <a href="#subscription" role="button"  className="max-w-[305px] w-full mx-auto max-h-[44px] h-full bg-[#30A7D7] rounded-lg text-white hidden mb-16 lg:flex items-center justify-center">

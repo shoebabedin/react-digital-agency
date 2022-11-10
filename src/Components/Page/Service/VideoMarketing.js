@@ -2,6 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import CustomPlan from "../../Common/CustomPlan/CustomPlan";
 import Pricing from "../../Common/Pricing/Pricing";
+import recentwork from "./../../../Data/recentwork.json";
 
 const VideoMarketing = () => {
   const settings = {
@@ -23,21 +24,29 @@ const VideoMarketing = () => {
               <p className="font-medium text-base lg:text-2xl leading-[24px] text-[rgba(57,62,80,0.4)] text-center lg:text-left">
                 Video Marketing
               </p>
-              <h2 className="font-bold text-2xl md:text-[28px] lg:text-[64px] lg:leading-[96px] text-[#393E50] text-center lg:text-left mb-2 md:mb-10">
-                <span className="text-[#30A7D7]">Video</span>
-                that Boost your Business
+              <h2 className="font-bold text-2xl md:text-[28px] lg:text-[64px] lg:leading-[96px] text-[#393E50] text-center lg:text-left mb-2 md:mb-10 capitalize">
+                <span className="text-[#30A7D7] mr-1">Video</span>
+                That Boost your Business
               </h2>
-              <a href="#subscription" role="button" className="max-w-[305px] w-full mx-auto lg:mr-auto lg:ml-0 max-h-[44px] h-full bg-[#30A7D7] rounded-lg text-white hidden lg:flex items-center justify-center">
+              <a
+                href="#subscription"
+                role="button"
+                className="max-w-[305px] w-full mx-auto lg:mr-auto lg:ml-0 max-h-[44px] h-full bg-[#30A7D7] rounded-lg text-white hidden lg:flex items-center justify-center"
+              >
                 Get a Quote
               </a>
             </div>
             <div className="img col-span-12 lg:col-span-6">
               <img
-                src={require('./../../../assets/images/sms-marketing/hero-section.webp')}
+                src={require("./../../../assets/images/sms-marketing/hero-section.webp")}
                 alt=""
               />
 
-              <a href="#subscription" role="button" className="max-w-[305px] w-full mx-auto max-h-[44px] h-full bg-[#30A7D7] rounded-lg text-white block lg:hidden mt-10">
+              <a
+                href="#subscription"
+                role="button"
+                className="max-w-[305px] w-full mx-auto max-h-[44px] h-full bg-[#30A7D7] rounded-lg text-white block lg:hidden mt-10"
+              >
                 Get a Quote
               </a>
             </div>
@@ -50,12 +59,8 @@ const VideoMarketing = () => {
       <section>
         <div className="container">
           <div className="grid grid-cols-12 ga-4">
-            <div
-              className="col-span-12 md:col-span-6 lg:col-span-4 text-center p-5"
-            >
-              <span
-                className="icon w-10 md:w-[80px] h-10 md:h-[80px] bg-[#3C61C9] flex items-center justify-center rounded-lg md:rounded-[20px] mx-auto mb-4"
-              >
+            <div className="col-span-12 md:col-span-6 lg:col-span-4 text-center p-5">
+              <span className="icon w-10 md:w-[80px] h-10 md:h-[80px] bg-[#3C61C9] flex items-center justify-center rounded-lg md:rounded-[20px] mx-auto mb-4">
                 <svg
                   className="w-[20px] md:w-[40px] h-[20px] md:h-[40px]"
                   width="40"
@@ -72,24 +77,16 @@ const VideoMarketing = () => {
                   />
                 </svg>
               </span>
-              <h4
-                className="font-medium text-base md:text-2xl leading-9 text-[#393e50] mb-4"
-              >
+              <h4 className="font-medium text-base md:text-2xl leading-9 text-[#393e50] mb-4">
                 SMS Campaigns
               </h4>
-              <p
-                className="font-normal text-sm md:text-base leading-6 text-[rgba(57,62,80,0.4)]"
-              >
+              <p className="font-normal text-sm md:text-base leading-6 text-[rgba(57,62,80,0.4)]">
                 Capably straightforward email advertising intended to assist
                 your independent venture with developing.
               </p>
             </div>
-            <div
-              className="col-span-12 md:col-span-6 lg:col-span-4 text-center p-5"
-            >
-              <span
-                className="icon w-10 md:w-[80px] h-10 md:h-[80px] bg-[#3C61C9] flex items-center justify-center rounded-lg md:rounded-[20px] mx-auto mb-4"
-              >
+            <div className="col-span-12 md:col-span-6 lg:col-span-4 text-center p-5">
+              <span className="icon w-10 md:w-[80px] h-10 md:h-[80px] bg-[#3C61C9] flex items-center justify-center rounded-lg md:rounded-[20px] mx-auto mb-4">
                 <svg
                   className="w-[20px] md:w-[40px] h-[20px] md:h-[40px]"
                   width="40"
@@ -106,22 +103,16 @@ const VideoMarketing = () => {
                   />
                 </svg>
               </span>
-              <h4
-                className="font-medium text-base md:text-2xl leading-9 text-[#393e50] mb-4"
-              >
+              <h4 className="font-medium text-base md:text-2xl leading-9 text-[#393e50] mb-4">
                 2-Way SMS Messaging
               </h4>
-              <p
-                className="font-normal text-sm md:text-base leading-6 text-[rgba(57,62,80,0.4)]"
-              >
+              <p className="font-normal text-sm md:text-base leading-6 text-[rgba(57,62,80,0.4)]">
                 Capably straightforward email advertising intended to assist
                 your independent venture with developing.
               </p>
             </div>
             <div className="col-span-12 lg:col-span-4 text-center p-5">
-              <span
-                className="icon w-10 md:w-[80px] h-10 md:h-[80px] bg-[#3C61C9] flex items-center justify-center rounded-lg md:rounded-[20px] mx-auto mb-4"
-              >
+              <span className="icon w-10 md:w-[80px] h-10 md:h-[80px] bg-[#3C61C9] flex items-center justify-center rounded-lg md:rounded-[20px] mx-auto mb-4">
                 <svg
                   className="w-[20px] md:w-[40px] h-[20px] md:h-[40px]"
                   width="40"
@@ -145,14 +136,10 @@ const VideoMarketing = () => {
                   </defs>
                 </svg>
               </span>
-              <h4
-                className="font-medium text-base md:text-2xl leading-9 text-[#393e50] mb-4"
-              >
+              <h4 className="font-medium text-base md:text-2xl leading-9 text-[#393e50] mb-4">
                 SMS Channel Reports
               </h4>
-              <p
-                className="font-normal text-sm md:text-base leading-6 text-[rgba(57,62,80,0.4)]"
-              >
+              <p className="font-normal text-sm md:text-base leading-6 text-[rgba(57,62,80,0.4)]">
                 Capably straightforward email advertising intended to assist
                 your independent venture with developing.
               </p>
@@ -167,30 +154,24 @@ const VideoMarketing = () => {
         <div className="max-w-[955px] mx-auto px-4">
           <div className="grid grid-cols-12 gap-4">
             <div className="col-span-12">
-              <h2
-                className="font-bold text-xl md:text-3xl lg:text-[40px] leading-[60px] text-[#393e50] text-center mb-5"
-              >
+              <h2 className="font-bold text-xl md:text-3xl lg:text-[40px] leading-[60px] text-[#393e50] text-center mb-5 capitalize">
                 We do this since it works.
               </h2>
-              <p
-                className="font-medium text-base leading-[22px] text-[#393e50]/40 text-center mb-16"
-              >
+              <p className="font-medium text-base leading-[22px] text-[#393e50]/40 text-center mb-16">
                 We fundamentally developed the cutting edge explainer video, and
                 presently we make TV spots. Assuming that the objective is to
                 assist individuals with understanding a novel, new thing, we're
                 in.
               </p>
 
-              <div
-                className="max-w-[328px] md:max-w-[856px] max-h-[208px] md:max-h-[380px] mx-auto w-full h-full rounded-[14px] overflow-hidden shadow-[0px_25px_32px_rgba(48,167,215,0.08)]"
-              >
+              <div className="max-w-[328px] md:max-w-[856px] max-h-[208px] md:max-h-[380px] mx-auto w-full h-full rounded-[14px] overflow-hidden shadow-[0px_25px_32px_rgba(48,167,215,0.08)]">
                 <video className="w-full h-full" controls>
                   <source
-                    src={require('./../../../assets/images/video-development/since_work.mp4')}
+                    src={require("./../../../assets/images/video-development/since_work.mp4")}
                     type="video/mp4"
                   />
                   <source
-                    src={require('./../../../assets/images/video-development/video.webp')}
+                    src={require("./../../../assets/images/video-development/video.webp")}
                     type="video/png"
                   />
                 </video>
@@ -207,14 +188,10 @@ const VideoMarketing = () => {
           <div className="grid grid-cols-12 gap-4">
             <div className="col-span-12">
               <div className="max-w-[884px] mx-auto px-4 mb-[64px]">
-                <h2
-                  className="font-bold text-xl md:text-3xl lg:text-[40px] leading-[60px] text-[#393e50] text-center mb-5"
-                >
+                <h2 className="font-bold text-xl md:text-3xl lg:text-[40px] leading-[60px] text-[#393e50] text-center mb-5">
                   Recent Works
                 </h2>
-                <p
-                  className="font-medium text-base leading-[22px] text-[#393e50]/40 text-center"
-                >
+                <p className="font-medium text-base leading-[22px] text-[#393e50]/40 text-center">
                   Get a kick off on building your pages and bulletins! Pick a
                   plan that accommodates your business needs and make it your
                   own. Our drag and drop editors make it very simple for anybody
@@ -224,48 +201,15 @@ const VideoMarketing = () => {
             </div>
             <div className="col-span-12">
               <Slider {...settings} className="recent_work_slider">
-                <div className="recent_work_slider_item">
-                  <img
-                    className="w-full h-full rounded-[10px] px-2"
-                    src={require('./../../../assets/images/video-development/item1.webp')}
-                    alt=""
-                  />
-                </div>
-                <div className="recent_work_slider_item">
-                  <img
-                    className="w-full h-full rounded-[10px] px-2"
-                    src={require('./../../../assets/images/video-development/item2.webp')}
-                    alt=""
-                  />
-                </div>
-                <div className="recent_work_slider_item">
-                  <img
-                    className="w-full h-full rounded-[10px] px-2"
-                    src={require('./../../../assets/images/video-development/item3.webp')}
-                    alt=""
-                  />
-                </div>
-                <div className="recent_work_slider_item">
-                  <img
-                    className="w-full h-full rounded-[10px] px-2"
-                    src={require('./../../../assets/images/video-development/item4.webp')}
-                    alt=""
-                  />
-                </div>
-                <div className="recent_work_slider_item">
-                  <img
-                    className="w-full h-full rounded-[10px] px-2"
-                    src={require('./../../../assets/images/video-development/item1.webp')}
-                    alt=""
-                  />
-                </div>
-                <div className="recent_work_slider_item">
-                  <img
-                    className="w-full h-full rounded-[10px] px-2"
-                    src={require('./../../../assets/images/video-development/item2.webp')}
-                    alt=""
-                  />
-                </div>
+                {recentwork.map((item) => (
+                  <div className="recent_work_slider_item px-2 focus-within:outline-0">
+                    <img
+                      className="w-full h-full rounded-[10px] "
+                      src={require(`./../../../assets/images/video-development/${item.img}.webp`)}
+                      alt=""
+                    />
+                  </div>
+                ))}
               </Slider>
             </div>
           </div>
@@ -274,11 +218,11 @@ const VideoMarketing = () => {
       {/* <!-- Recent Works --> */}
 
       {/* <!-- plan every thing from sketch --> */}
-      <Pricing/>
+      <Pricing />
       {/* <!-- plan every thing from sketch --> */}
 
       {/* <!-- Custome Plan --> */}
-      <CustomPlan/>
+      <CustomPlan />
       {/* <!-- Custome Plan --> */}
     </>
   );

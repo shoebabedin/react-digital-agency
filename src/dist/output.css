@@ -807,6 +807,10 @@ video {
   display: inline-block;
 }
 
+.inline {
+  display: inline;
+}
+
 .flex {
   display: flex;
 }
@@ -1453,6 +1457,10 @@ video {
 
 .uppercase {
   text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
 }
 
 .leading-\[30px\] {
@@ -2249,6 +2257,10 @@ a.showMore.showLess::after {
 .focus-within\:outline-none:focus-within {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+.focus-within\:outline-0:focus-within {
+  outline-width: 0px;
 }
 
 .hover\:rounded-\[20px\]:hover {

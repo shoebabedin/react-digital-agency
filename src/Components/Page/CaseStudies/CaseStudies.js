@@ -12,7 +12,7 @@ const CaseStudies = () => {
       <section className="case-hero py-4 md:py-16">
         <div className="container">
           <div className="grid grid-cols-12 gap-4">
-            <div className="title col-span-12 lg:col-span-8 relative">
+            <div className="title col-span-12 lg:col-span-8 relative -z-10">
               <div className="">
                 <img
                   className="rounded-[10px] max-w-[526px] w-full ml-auto"
