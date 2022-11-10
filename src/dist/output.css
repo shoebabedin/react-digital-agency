@@ -2764,6 +2764,10 @@ a.showMore.showLess::after {
     max-width: 416px;
   }
 
+  .lg\:max-w-\[250px\] {
+    max-width: 250px;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }

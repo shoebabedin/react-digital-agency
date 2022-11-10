@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="col-span-12 lg:col-span-5">
               <Link to="./index.html">
                 <img
-                  className="max-w-[160px] lg:max-w-[330px] mx-auto lg:mr-auto lg:ml-0"
+                  className="max-w-[160px] lg:max-w-[250px] mx-auto lg:mr-auto lg:ml-0"
                   src={logo}
                   alt=""
                 />
