@@ -32,7 +32,7 @@ const Accordion = () => {
                       className="col-span-12 lg:col-span-6"
                     >
                       <li
-                        onClick={() => setAccordionOpen(item.id)}
+                        onClick={() => setAccordionOpen(accordionOpen === item.id  ? "" : item.id)}
                         className="question flex items-center justify-between px-3"
                         id="question"
                       >
