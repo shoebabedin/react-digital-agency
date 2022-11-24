@@ -8,6 +8,8 @@ import RecentProjects from "./RecentProjects";
 import Service from "./Service";
 
 const Home = () => {
+
+ 
   return (
     <>
       {/* <!-- hero section --> */}

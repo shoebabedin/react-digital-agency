@@ -24,7 +24,7 @@ const TemplateWork = () => {
               </div>
 
               {/* grid gellary */}
-              <div className="custom_template_gal grid grid-col-1 md:grid-cols-4 grid-rows-3 gap-3 mt-10">
+              <div className="custom_template_gal grid grid-col-1 md:grid-cols-4 grid-rows-3 gap-3 mt-10 max-h-[700px]">
                 {gellary.map((item) => (
                   <div key={item.id} className={`template_gal_item col-span-1 overflow-hidden rounded-[10px]`}>
                     <img
