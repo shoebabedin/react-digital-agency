@@ -28,7 +28,7 @@ const TemplateWork = () => {
                 {gellary.map((item) => (
                   <div key={item.id} className={`template_gal_item col-span-1 overflow-hidden rounded-[10px]`}>
                     <img
-                      className="w-full h-full transition-all duration-1000 hover:scale-125"
+                      className="w-full h-full transition-all duration-1000 hover:scale-125 object-cover"
                       src={require(`./../../../assets/images/template/${item.img}.webp`)}
                       alt={item.id}
                     />
